@@ -1,0 +1,86 @@
+
+
+We need to do a few things.
+
+First, we need to describe what the app IS.
+
+
+
+1) Core features and functionalities
+    a) swipe through cards of recipes
+        i) Cards should have:
+            1) Recipe name
+            2) Recipe image
+            3) A text description of the dish
+
+    b) update records for recipes with Comments or reviews
+    c) Add, update, remove, recipes
+    d) search for recipes by name
+
+Recipes have ingredients
+ingredients have a name, a quantity, and a measurement
+
+Recipes have instructions
+Instructions are a list of steps.
+Steps are text.
+
+Recipes have an image (or a path to an image)
+Recipes have a number of servings
+Recipes have nutritional information
+Nutritional information has calories and
+
+
+
+Tags - veg / not veg, type of meat or protein, heavy, light, high effort, low effort,
+
+
+Cuisine tags
+An enum for cuisine type
+
+
+
+
+
+
+
+CHAT GPT OUTLINE FOR DEVELOPMENT PROCESS
+
+1) planning and design
+Define the core features and functionalities of the webapp
+Create wireframes or mockups of the UI
+Design the dabatase schema for storing recipes, ingredients, instructions, and images
+Plan out the user flow and navigation within the app
+
+2) Front end Development
+Set up the basic project structure using my chosen front-end framework - react.js or vue.js
+Implement the user interface based off wireframes, focusing on layout, navigation, and basic styling
+Begin implementing the swiping interface using a library like react swipe cards or vue swiper
+
+3) Back end development
+Choose back end - node.js with express, python with Django or Flask
+Set up the server and routes for handling user requests and serving data.
+Implement a restful API for CRUD operations (create read update delete) on recipes ingredients and images
+Connect to the DB and define the necessary models and schemas
+
+4) Database setup
+choose your database technology (e.g. mysql, postgresql, mongodb)
+Set up the database and tables/collections according to your schema design
+Implement data validation and integrity checks
+
+5) Image handling
+Integrate a cloud storage device for storing and retrieving recipe images
+implement an image upload functionality and connect it to the storage service
+
+NOTE - I might want to do this locally so this might be different.
+
+6) Authentication and user management
+Integrate user authentication using Firebase Authentication or Auth0
+Implement user registration, login, and account management
+
+
+7) Testing
+
+8) Deployment
+Choose a hosting platform, heroku aws, digitalocean and deploy application
+set up domain name and dns configuration.
+
